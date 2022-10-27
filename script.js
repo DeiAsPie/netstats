@@ -4,7 +4,7 @@ fetch("https://am.i.mullvad.net/json")
 		const display = `<h2>
 						Welcome my friend from ${data.city === null ? '' : `${data.city},`} ${data.country}
 					  </h2>
-					Your ISP, <u>${data.organization}</u> told me that your current IP is <u>${data.ip}</u>
+					Your ISP, <u>${data.organization}</u> told me that your current IP address is <u>${data.ip}</u>
 					   and your current location coordinates are <u>(${data.longitude}, ${data.latitude})</u>.
 			
 					<br><br>
